@@ -295,7 +295,7 @@ class Solution:
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution: # iteration
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
         total = 0
         if root is None:
@@ -312,6 +312,24 @@ class Solution:
             if curr.right is not None:
                 stack.append(curr.right)
         return total
+
+class Solution: # recursion
+    def sumOfLeftLeaves(self, root: TreeNode) -> int:
+        if root is None:
+            return 0
+        
+        def process(root, is_left):
+            if root.left is None and root.right is None:
+                return root.val if is_left == True else 0
+            
+            total = 0
+            if root.left is not None:
+                total += process(root.left, True)
+            if root.right is not None:
+                total += process(root.right, False)
+            return total
+        
+        return process(root, False)    
 
 # 405. Convert a Number to Hexadecimal
 class Solution:
