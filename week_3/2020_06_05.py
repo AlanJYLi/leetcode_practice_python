@@ -6,16 +6,18 @@
 #         self.left = left
 #         self.right = right
 class Solution: # recursion
-    def __init__(self):
-        self.total = 0
-    
     def convertBST(self, root: TreeNode) -> TreeNode:
-        if root:
-            self.convertBST(root.right)
-            self.total += root.val
-            root.val = self.total
-            self.convertBST(root.left)
-        return root
+        self.total = 0
+        
+        def process(root):
+            if root:
+                process(root.right)
+                self.total += root.val
+                root.val = self.total
+                process(root.left)
+            return root
+        
+        return process(root)
 
 class Solution: # iteration
     def convertBST(self, root: TreeNode) -> TreeNode:
