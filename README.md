@@ -1,6 +1,7 @@
 # leetcode_practice_python
 Programming practice on leetcode
 
+### Difficulty: Easy (Week1 - Week4)
 ### Week 1 (Total: 20)
 - 2020_05_21: 1, 7, 9, 13, 14, 20
 - 2020_05_22: 21, 26, 27, 28, 35, 38, 53, 58, 66, 67
@@ -29,4 +30,6 @@ Programming practice on leetcode
 - 2020_06_12: 876, 883, 884, 888, 892, 893, 896, 897, 905, 908, 914, 917, 922, 925, 929, 933, 937, 938, 941, 942, 944
 - 2020_06_13: 949, 953, 961, 965, 970, 976, 977, 985, 989, 993, 997
   
+### Difficulty: Median and hard (From Week5)
 ### Week 5
+- 2020_06_15: 2, 3, 4, 6, 8, 10, 12, 15, 16
