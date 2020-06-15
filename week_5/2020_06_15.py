@@ -47,7 +47,7 @@ class Solution:
                     queue.append(s[i])
             return max(res, len(queue))
 
-class Solution: # faster: sliding window; when finding a duplicate in the range [i, j) with index m, skip all the elements in the range [i, m], and let i = m+1
+class Solution: # faster: sliding window; when finding a duplicate in the range [i, j) with index m, skip all the elements in the range [i, m], and let i = m+1.
     def lengthOfLongestSubstring(self, s: str) -> int:
         if len(s) <= 1:
             return len(s)
