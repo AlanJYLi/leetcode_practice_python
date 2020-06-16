@@ -33,3 +33,4 @@ Programming practice on leetcode
 ### Difficulty: Median and hard (From Week5)
 ### Week 5
 - 2020_06_15: 2, 3, 4, 6, 8, 10, 12, 15, 16
+- 2020_06_16: 17, 18, 19, 22, 23, 24, 25, 29
