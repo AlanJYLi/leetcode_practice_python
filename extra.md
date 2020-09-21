@@ -1,8 +1,13 @@
 Name: Jingyu Li (jli3006, 903520148)
+
 Email: alanli@gatech.edu
+
 EvalAI ID: alanjingyuli
+
 EvalAI Email: alanli@gatech.edu
+
 Leaderboard Name: alanjyli
+
 Best Acc on EvalAI: 0.83
 
 Final model: VGG-C with batch normalization and dropout
